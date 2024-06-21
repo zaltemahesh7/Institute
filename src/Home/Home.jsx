@@ -3,6 +3,7 @@ import nurse from '/images/Hero.webp';
 import Card from './Card';
 import StudentCard from './StudentCard';
 import ServiceSuitCards from './ServiceSuitCards';
+import Locations from './Carousels/Locations';
 
 function Home() {
 
@@ -102,15 +103,74 @@ function Home() {
                 <div className='flex justify-center items-center px-6 py-8'>
                     <button className='border px-6 py-4 rounded-full bg-[#7633fc] text-white text-2xl' >BOOK YOUR FREE CALL</button>
                 </div>
-                <div>
+                <div className=' flex flex-col justify-center m-auto items-center'>
                     <div className='flex justify-center items-center text-5xl p-5'>
                         <h2>Choose your <span className='text-[#7633fc]'>dream study destination</span></h2>
+                    </div>
+
+                    <button className='border px-20 py-4 my-10 rounded-full bg-[#7633fc] text-white text-2xl'>START</button>
+                </div>
+            </section>
+
+            <section className='px-28 bg-[#07bacc]'>
+                <div className=''>
+                    <div>
+                        <h2 className=' text-4xl text-center'><span className=' text-[#a2e03a]'>Student's journey </span>with EazyGrad</h2>
+                    </div>
+
+                    <div className='grid grid-cols-2 gap-5'>
+
+                        <div className='flex gap-6 p-5 border m-auto'>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores veritatis molestiae.</p>
+                            <img className=' ' src='/images/card/100.webp' alt="card Images" />
+                        </div>
+
+                        <div className='h-42 border'></div>
+
+                        <div className='h-52 border'></div>
+
+                        <div className='flex items-center'>
+                            <img className=' ' src='/images/card/100.webp' alt="card Images" />
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores veritatis molestiae.</p>
+                        </div>
+
+                        <div className='flex w-72 items-end'>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores veritatis molestiae.</p>
+                            <img className=' ' src='/images/card/100.webp' alt="card Images" />
+                        </div>
+
+                        <div className='h-52 border'></div>
+
+                        <div className='flex w-72 items-end'>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores veritatis molestiae.</p>
+                            <img className=' ' src='/images/card/100.webp' alt="card Images" />
+                        </div>
+
+                        <div className='h-52 border'></div>
+
+                        <div className='flex w-72 items-end'>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores veritatis molestiae.</p>
+                            <img className=' ' src='/images/card/100.webp' alt="card Images" />
+                        </div>
+
+                        <div className='h-52 border'></div>
+
                     </div>
                 </div>
             </section>
 
+
             <section className='px-28'>
 
+
+            </section>
+
+            <section className='px-28'>
+                {/* <Locations /> */}
+            </section>
+
+            <section className='px-28'>
+                {/* <Locations /> */}
             </section>
         </>
     )
