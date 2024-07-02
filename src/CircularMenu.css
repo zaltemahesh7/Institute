@@ -1,0 +1,54 @@
+.circular-menu-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.circular-menu {
+  position: relative;
+  width: 20em;
+  height: 20em;
+  border-radius: 50%;
+  border: 2px solid #0093e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circular-menu-item {
+  position: absolute;
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  background-color: #80d0c7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+}
+
+.item-details {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.item-details button {
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  background-color: #0093e9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
